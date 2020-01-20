@@ -28,8 +28,8 @@ config.read("config.ini")
 # album_id = config['imgur_api']['Album_ID']
 # API_Get_Image = config['other_api']['API_Get_Image']
 
-line_bot_api = LineBotApi(os.environ['CHANNEL_ACCESS_TOKEN'])
-handler = WebhookHandler(os.environ['CHANNEL_SECRET'])
+line_bot_api = LineBotApi(PlOK5eaP4cV9nZK0G7Bj9Qiz+g0NRUJ3l/5EAEYvgJONtJkj3c4BbvwiseYXbohKTMVzIx9SN3ZvmgSNwbvBYbNmYjvY4aOxS1GPqgA/jutiAgPRrgnzWo/6mFIWMmUntQef74vLa5MIRfURKb3ffwdB04t89/1O/w1cDnyilFU=)
+handler = WebhookHandler(30da953d93dcab071f365ff3223f763b)
 google_api_key = os.environ['GOOGLE_API_KEY']
 line_reply_api = 'https://api.line.me/v2/bot/message/reply'
 
